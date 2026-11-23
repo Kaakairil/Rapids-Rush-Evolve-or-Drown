@@ -11,7 +11,7 @@ A Roblox obby-racer hybrid where players ride a raft down a chaotic river, colle
 | [architecture.md](architecture.md) | Technical design: client/server split, services, data model, remote events, folder layout. |
 | [functions.md](functions.md) | Function and module reference: every script and the functions it exposes. |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Decision checkpoint: each major choice with status and sign-off. |
-| [docs/plans/](docs/plans/) | Build plans: gapless, per-phase task breakdowns. |
+| [docs/plans/00-overview.md](docs/plans/00-overview.md) | Build plan overview: 15 per-task plans with handoff table. |
 
 ## Quick Summary
 
