@@ -206,6 +206,7 @@ A table of ability functions. Each takes `(player: Player, runState: RunState, r
 - `HealthService.heal(player: Player, amount: number): ()`
 - `HealthService.drainStamina(player: Player, amount: number): ()`
 - `HealthService.regenStamina(player: Player, amount: number): ()`
+- `HealthService.setInWater(player: Player, inWater: boolean): ()` flips the stamina drain-rate context; called from HealthService's own `update(dt)` water/seat check (no separate service).
 - `HealthService.down(player: Player): ()` sets downed state, starts bleed-out timer (`BLEED_OUT_S`), fires `DownedEvent`.
 - `HealthService.revive(reviver: Player, downedPlayer: Player): boolean` validates proximity, holds `REVIVE_HOLD_S`, restores `REVIVE_HP_PERCENT`.
 - `HealthService.swimBack(player: Player): boolean` lets a downed player with stamina climb onto their own raft at `REVIVE_HP_PERCENT`.
