@@ -166,6 +166,7 @@ All remotes live in `ReplicatedStorage/Shared/Net/Remotes.luau`. Names are never
 | `ObstacleHit` | RemoteEvent | S -> C | `obstacleId, position` | Hit visuals |
 | `RaceState` | RemoteEvent | S -> C | placements, countdown | Race lobby and HUD |
 | `DataLoaded` | RemoteEvent | S -> C | profile summary | Enables menu buttons |
+| `ReviveRequest` | RemoteEvent | C -> S | `downedPlayerUserId: number` | Teammate revive request; hold time validated server-side |
 
 ### 7.2 Rules
 
